@@ -42,7 +42,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h1 className="title">Phonebook</h1>
       <div className="upper-container">
         <div className="container">
           <ContactForm onAdd={addContact} />

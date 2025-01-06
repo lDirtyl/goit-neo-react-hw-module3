@@ -12,33 +12,8 @@
   .container {
     width: 320px;
   }
-  
-  .phonebook-logo {
-    height: 40px;
-    margin-right: 10px;
-  }
-  
-  @keyframes logo-spin {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .phonebook-logo {
-      animation: logo-spin infinite 1s linear;
-      animation-iteration-count: 4;
-    }
-  }
-  
-  @media screen and (max-width: 420px) {
-    #root {
-      padding: 1rem;
-    }
+
+  .title {
+    display: flex;
+    justify-content: center;
   }
