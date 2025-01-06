@@ -1,0 +1,39 @@
+.btn {
+    background: linear-gradient(90deg, #6ab04c, #badc58); 
+    border: none; 
+    border-radius: 8px; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:hover {
+    background: linear-gradient(90deg, #badc58, #6ab04c); 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .btn:active {
+    transform: translateY(0); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  }
+
+  .btnDelete {
+    background: linear-gradient(90deg, #ff4b4b, #ff6a6a); /* Красный градиент */
+    color: white; /* Белый текст */
+  }
+  
+  .btnDelete:hover {
+    background: linear-gradient(90deg, #ff6a6a, #ff4b4b); /* Обратный градиент при наведении */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(255, 0, 0, 0.3); /* Увеличенная тень */
+  }
+  
+  .btnDelete:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.2); /* Меньшая тень при нажатии */
+  }
